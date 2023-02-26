@@ -68,3 +68,14 @@ To summarize what I learnt form these videos:
 We completed our first goal of learning typscript and next week we will hopefuly have completed our second goal of learning SQL.
 
 ---
+
+## Week 4
+#### Uploaded 26/02/2023
+
+This week was a very important week for the project, as we re-revised the timeline to be more realistic of what we would be able to complete during the week (can be found [here](https://docs.google.com/document/d/13toE3SYV0K4IG2FPP6fhk4kCVGq5jh-FQ2uWeFDy4QU/edit)), as we overestimated how much time we actually had. We also discussed what we wanted to do for the front end development of the website and decided, that we would try using react, as it would allow us to write more typescript. We were also thinking about using sql lite, as it is better for colaborative development, but we will look further into that once the time to apply our sql learnings comes.
+
+We also made the front end template for our website, which is a big part of the front end development process. So next weeks work will be finishing off the front end development.
+
+### Goals
+
+No goals were completed this week, but we are one step closer to finishing the front end of the website.
