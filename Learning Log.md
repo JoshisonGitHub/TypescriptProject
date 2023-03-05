@@ -79,3 +79,17 @@ We also made the front end template for our website, which is a big part of the 
 ### Goals
 
 No goals were completed this week, but we are one step closer to finishing the front end of the website.
+
+---
+## Week 5
+#### Uploaded 05/03/2023
+
+In the fith week of the project development we started doing the front end development of the website, going of the template created in week 4. I decided to start working on creating the sidebar, as I thought this would take the longest seeing as we were all new to react and typescript. So I started researching and found a couple useful templates for creating a sidebar. However, most of them were created using javascript and react only, not typescript, so I looked through the code in order to understand them to hopefully get a better idea on how the react librarys worked in order to create my own sidebar. Luckily I happen to find a template that used react and typescript, so I studied this template code and tweeked it to hopefully make it work for our project (link to the website can be found [here](https://annysah.hashnode.dev/build-a-sidebar-menu-with-react-typescript-and-styled-components-ckwkykpm80hs7gns112nycvvy)).
+
+Whilst working on the sidebar I attempted to test it to see how it looked on the webpage. However, this did not work due to errors caused by missing libraries, which I was very confused on how to fix, as I followed the tutorial and made sure to install every react library I was using. I even made sure to double check everything. 
+
+On the bright side, whilst I was working on the navbar another one of our members was working on the rest of the page and was able to finish faster than expected, so he decided to give the sidebar a crack as well. He was able to finish the sidebar and push his branch to the main project branch, leaving my attempt obsolite. I am however still very glad that I attempted doing the sidebar as I gained valuable knowledge on how react librarys can be used in conjunciton with typescript to create functional code which is very legable.
+
+### Goals
+
+No goals completed this week, but we are one step closer to achieving Goal 4, to create a functioning website linked with a database, as the website front end is now done.
