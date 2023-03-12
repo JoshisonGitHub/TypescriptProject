@@ -93,3 +93,19 @@ On the bright side, whilst I was working on the navbar another one of our member
 ### Goals
 
 No goals completed this week, but we are one step closer to achieving Goal 4, to create a functioning website linked with a database, as the website front end is now done.
+
+---
+## Week 6
+#### Uploaded 12/03/2023
+
+This week our group learnt sql and made an entity relationship diagram for the database (can be found [here](https://annysah.hashnode.dev/build-a-sidebar-menu-with-react-typescript-and-styled-components-ckwkykpm80hs7gns112nycvvy)), which turned out very well. However, due to other work commitments we have fallen behind our plan on where we should be. We are a week behind and should have already started the back-end development for the website, which we sadly have not. 
+
+I learnt sql through my Database lecturerer this week and learnt about entity relationship diagrams the week before that, which was very useful for learning basic sql commands. I will like the slides used to learn this and the practise paper I completed in my guide to learners.
+
+### Goals
+
+Our second goal has been completed, in that we learnt sql this week.
+
+### To be Completed next Week
+
+Next week we definitely need to make progress on both the database and the backend development of the website. The login system will come next, but if we do not have enough time, it would be better to focus on the database rather than start the login system.
