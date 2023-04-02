@@ -109,3 +109,54 @@ Our second goal has been completed, in that we learnt sql this week.
 ### To be Completed next Week
 
 Next week we definitely need to make progress on both the database and the backend development of the website. The login system will come next, but if we do not have enough time, it would be better to focus on the database rather than start the login system.
+
+## Week 7 - 9
+#### Uploaded 02/04/2023
+
+During the past 3 weeks we have been hard at work making major progress on the Website and have decided that it is now at a point where we are happy to say that it is "finished". The main parts we worked on:
+
+1. New Front End
+2. Front End Functionality 
+3. Server (Back End)
+4. GET and POST Requests 
+5. Database
+
+### New Front End
+
+We redid the entire front end so that it wasn't hardcoded in css and instead worked more dinamically with different viewport sizes. Sadly the website doesn't work on phone, but this bug could be fixed if we were to seriously develop this project.
+
+### Front End Functionality 
+
+I was tasked with implementing the front end functionality, such as buttons to create and delete accounts, add funds to an account, and transfer money between accounts. To do this I used modals and linked them to the sidebar. Due to time constraints I was not able to implement the function to send the data to the backend for all the functions, but was able to create a mock version of what it would look like to create an account and send that data to the backend.
+
+### Server
+
+We created a server to host the website which was difficult to implement as the server had to run of a different port and communicate with the wepage rather than having direct access to it.
+
+### GET and POST Requests
+
+We created GET and POST requests for all the data that would be sent to the back end from the website, but as we did not have the time to correctly implement the data transfer from front to back end, they are mostly placeholders for data that would be transfered if we were to seriously develop this project.
+
+### Database
+
+The database is fully created and functional and is the most complex part of this entire project as it even contains data that we did not have the time to implement such as a login systsem with a user ID and user data. This is very useful, as if we were to seriourly develop this project we would not have to change anything in the database, as the entire entity relationship diagram would still be valid.
+
+### Goals
+
+To summarise what Goals we meet and which we fell short on:
+
+* Goal 1: Learn typescript
+  * We definitely achieved this goal.
+* Goal 2: Learn sql
+  * We definitely achieved this goal.
+* Goal 3: Create legible code with comments that any coder will understand
+  * I would argue that we achieved this goal, as even though we did not add too many comments to our code, we did however segment the code nicely and made variable names and functions that are easy to understand.
+* Goal 4: Create a functional Website linked with a database
+  * We partially achieved this goal, as we created a functioning database, but the website does not respond to this database, so we fell short on linked the two together.
+* Goal 5: Create a login system for the website
+  * We fell short on this goal due to time constraints, although it would be possible to easily implement it in the future as the database was created with a login system in mind.
+
+
+### My final thoughts 
+
+I thought that this project worked surprisingly well and we worked well together as a team, helping each other when needed. Without naming them, I am very happy with how our project manager lead the team and continued to stear us down the right path whilst simoultaniously working on their own part of the project. Working with git, although challenging, was very rewarding and I understand better how major project development would work at a company. I gained invaluable knowledge through undergoing this project and even if at times I wished to stop working on the project as typescript was not my favourite to work with, I am glad I persurviered and had the oportunity to learn these new skills.
