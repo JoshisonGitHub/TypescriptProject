@@ -111,7 +111,7 @@ Our second goal has been completed, in that we learnt sql this week.
 Next week we definitely need to make progress on both the database and the backend development of the website. The login system will come next, but if we do not have enough time, it would be better to focus on the database rather than start the login system.
 
 ## Week 7 - 9
-#### Uploaded 02/04/2023
+#### Uploaded 05/04/2023
 
 During the past 3 weeks we have been hard at work making major progress on the Website and have decided that it is now at a point where we are happy to say that it is "finished". The main parts we worked on:
 
@@ -127,19 +127,19 @@ We redid the entire front end so that it wasn't hardcoded in css and instead wor
 
 ### Front End Functionality 
 
-I was tasked with implementing the front end functionality, such as buttons to create and delete accounts, add funds to an account, and transfer money between accounts. To do this I used modals and linked them to the sidebar. Due to time constraints I was not able to implement the function to send the data to the backend for all the functions, but was able to create a mock version of what it would look like to create an account and send that data to the backend.
+I was tasked with implementing the front end functionality, such as buttons to create and delete accounts, swtich accounts, and transfer money. To do this I used modals and linked them to the sidebar. I was able to send the data from each input field to the backend for all the functions we implemented (there are a couple extra, unused functions), such as account name, amount of money transfered and so on. I did this using the react version of sending data with json.
 
 ### Server
 
-We created a server to host the website which was difficult to implement as the server had to run of a different port and communicate with the wepage rather than having direct access to it.
+We created a server to host the website which was difficult to implement as the server had to run of a different port and communicate with the wepage rather than having direct access to it. We used paths to link them together.
 
 ### GET and POST Requests
 
-We created GET and POST requests for all the data that would be sent to the back end from the website, but as we did not have the time to correctly implement the data transfer from front to back end, they are mostly placeholders for data that would be transfered if we were to seriously develop this project.
+We created GET and POST requests for all the data that would be sent to the back end from the website. Such as new_acc to create a new account, del_acc to delete an account and so on. These function are all linked with the database so the input from the front end gets added to the database. We were planning on making the website available to main user via a login system, but were not able to implement it due to time constraints, so the user data in each GET and POST method is a template user.
 
 ### Database
 
-The database is fully created and functional and is the most complex part of this entire project as it even contains data that we did not have the time to implement such as a login systsem with a user ID and user data. This is very useful, as if we were to seriourly develop this project we would not have to change anything in the database, as the entire entity relationship diagram would still be valid.
+The database is fully created and functional and is the most complex part of this entire project as it even contains data that we did not have the time to implement such as a login system with a user ID and user data. This is very useful, as if we were to seriourly develop this project we would not have to change anything in the database, as the entire entity relationship diagram would still be valid.
 
 ### Goals
 
@@ -152,7 +152,7 @@ To summarise what Goals we meet and which we fell short on:
 * Goal 3: Create legible code with comments that any coder will understand
   * I would argue that we achieved this goal, as even though we did not add too many comments to our code, we did however segment the code nicely and made variable names and functions that are easy to understand.
 * Goal 4: Create a functional Website linked with a database
-  * We partially achieved this goal, as we created a functioning database, but the website does not respond to this database, so we fell short on linked the two together.
+  * We achieved this goal, as we created a functioning database, linked to a functional front end webpage.
 * Goal 5: Create a login system for the website
   * We fell short on this goal due to time constraints, although it would be possible to easily implement it in the future as the database was created with a login system in mind.
 
