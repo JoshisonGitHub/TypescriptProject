@@ -50,7 +50,7 @@ However, the main focus was learning Typescript which I enjoyed, as it resolves 
 1. **Readability**: I find it difficult to read other peoples code in Javascript. Typescript fixes this by adding types to each variable which improves legibility, as knowing the type of each variable makes it easier to understand the context of the input and ouput types and how the function will be used.
 2. **Bug Fixes**: As Typescript forces all variables to have a type, errors caused by allocating a variable a wrong type will be spotted in the interface by Typescript, rather than being spotted late in the developer console when using Javascript.
 
-By searching YouTube for Typescript videos for viewers with prior Javasciprt knowledge, I generated videos demonstrating the differences between the both, which I will summerise in my guide to learners journal. I also created a notepad document to summerise my learning and record my sources, to assist me in documenting my learning steps when I later create my guide to learners. 
+By searching YouTube for Typescript videos for viewers with prior Javasciprt knowledge, I generated videos demonstrating the differences between them. I also created a notepad document to summerise my learning and record my sources, to assist me in documenting my learning steps when I later create my guide to learners. Finally, I created a Pratice Project following [this](https://www.youtube.com/watch?v=kSukGsJ0s9A) YouTube tutorial.
 
 To summarize these videos taught me how:
 * to install Typescript in vs code using node
