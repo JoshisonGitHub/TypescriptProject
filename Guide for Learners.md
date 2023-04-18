@@ -1,12 +1,12 @@
 # Guide for Learners: Typescript
 
-This guide will demonstrate how to learn Typescript and how to use it to create a functional front-end website. An excellent way to learn this skill, is to apply it to a practise project and to research documentation associated with specific project tasks.
+This guide demonstrates how to learn Typescript and how to use it to create a functional front-end website. An excellent way to learn this skill, is to apply it to a practise project and to research documentation associated with specific project tasks.
 
 ## Background
 
-In order to benefit the most from this guide, knowledge of Javascript is essential, as the content provided assumes that readers are at least familiar with programming in Javascript, but not yet at intermediate level.
+In order to benefit the most from this guide, knowledge of Javascript is essential, as the content provided assumes readers are at least familiar with programming in Javascript, although not yet at intermediate level.
 
-This guide does, however provide links to brush up on forgotten Javascript programming. 
+This guide does, however, provide links to brush up on forgotten Javascript programming. 
 
 Furthermore, knowledge on how to use NodeJS and any (Front-end) Framework would be useful. In this guide, React will be used as the Framework. 
 
@@ -33,24 +33,24 @@ There are many advantages to learning Typescript:
 
 ### Code Legibility
 
-In Javascript it can become difficult to decifer code, especially when working on a project with others, because Javascript is particularly good at interpretting code, it is very lenient with users in terms of the code it will accept to be run. For example Javascript will:
+In Javascript it can become difficult to decifer code, especially when working on a project with others. Because Javascript is particularly good at interpretting code, it is very lenient with users in terms of the code it will accept to be run. For example Javascript will:
 
 - interpret a miss-spelt word correctly
 - assume the existance of a forgotten semicolon at the end of a line
 - assign a tpye to a varibable  
 
-Unfortunately this leniency can make it hard for programmers to understand the code, as so much is internally intepreted by Javascript. 
+This leniency can unfortunately make it hard for programmers to understand the code, as so much is internally intepreted by Javascript. 
 
-Typescript on the other hand is much stricter, expecting the user to assign types to variables, add semicolons at the end of lines and to correctly spell strings. This enables code to be more easilty understood as it is immediately visible to the programmer, rather than being internally intepreted. Furthermore, it is advantageous for programmers to learn these proper coding practises, such as ending lines with semicolons, as this is vital for maintaining code.
+Typescript on the other hand is much stricter, expecting the user to assign types to variables, add semicolons at the end of lines and to correctly spell strings. This enables code to be more easily understood as it is immediately visible to the programmer, rather than being internally intepreted. Furthermore, it is advantageous for programmers to learn proper coding practises, such as ending lines with semicolons, as this is vital for maintaining code.
 
 
 ### Code Maintainability
 
-Maintaining code and adhearing to good programming practises can be a difficult task, made much simpler through the use of Typescript. Typescript adds types to each variable which improves legibility, as knowing the type of each variable makes it easier to understand the context of the input and ouput types and how the function will be used. Furthermore it forces the good programming practise of creating legible code, thus maintinging a good coding structure.
+Maintaining code and adhearing to good programming practises can be a difficult task, made much simpler through the use of Typescript. Typescript adds types to each variable which improves legibility, as knowing the type of each variable makes it easier to understand the context of the input and ouput types and how the function will be used. Furthermore, it forces the good programming practise of creating legible code, thus maintinging a good coding structure.
 
 ### Faster Error Handling
 
-As Typescript is stricter than Javascript, syntax errors and various other non user input errors will be spotted in the interface during build time by Typescript, rather than in the browsers developer console when using Javascript.
+As Typescript is stricter than Javascript, syntax errors and various other non-user input errors will be spotted in the interface during build time by Typescript, rather than in the browsers developer console when using Javascript.
 
 ---
 
@@ -60,7 +60,7 @@ As Typescript is stricter than Javascript, syntax errors and various other non u
 
 [Here](https://www.youtube.com/watch?v=zQnBQ4tB3ZA) is a short overview video on Typescript and the basics on how to use it.
 
-To summarise the most important concept from the video:
+To summarise the most important concepts from the video:
 
 Typescript extends Javascript with static typing, forcing each variable to have a type. The language is stricter and includes static type checking, which checks for syntax and type errors during build time rather than run time. Once you have written code in Typescript it is compiled to Javascript and run.
 
@@ -80,9 +80,9 @@ Creating a Pratice Project is a good way to:
 2. Get a feel for how developing a project with Typescript works
 3. Learn more about building and running a website using Typescript
 
-[Here](https://www.youtube.com/watch?v=kSukGsJ0s9A) is a link to a YouTube tutorial on setting up a project using Typescript. The video, although useful, is fast paced, so here is summary of the video in easy to follow steps: 
+[Here](https://www.youtube.com/watch?v=kSukGsJ0s9A) is a link to a YouTube tutorial on setting up a project using Typescript. The video, although useful, is fast paced, so here is summary of the project setup segment from the video in easy to follow steps: 
 
-Hover the mouse over the images for more information
+Hover the mouse over the images for more information.
 
 ![Image of text 'npm install -g typescipt'](/images/npm_install.png "Install Typescript by typing 'npm install -g typescript' into the console. Remember to have NodeJS installed for this command to work")
 
@@ -111,11 +111,11 @@ Although React is not utilised heavily in this tutorial, it is a vital component
 
 ### Front-End Functionality
 
-To use Typescript to create functional front-end components such as a sidebar or buttons is no different than Javascript, except the syntax is slightly different and more strict.
+Typescript can be used to create functional front-end components such as a sidebar and buttons in the same way as Javascript, although the Typescript syntax differs slightly.
 
 #### **Sidebar**
 
-To create a Sidebar using React, TailwindCSS and Typescript, follow [this video tutorial](https://youtu.be/pfaSUYaSgRo). Remember this tutorial was created in base Javascript and thus must be modified into Typescript. The main difference will be the syntax.
+To create a Sidebar using React, TailwindCSS and Typescript, follow [this video tutorial](https://youtu.be/pfaSUYaSgRo). Remember this tutorial was created in base Javascript and so must be modified into Typescript. The main difference will be the syntax.
 
 ![Sidebar code](/images/sidebar.png)
 
@@ -125,11 +125,13 @@ This is the code segement used in the [Mock Banking Website](https://github.com/
 
 The Sidebar function contains the functional components SidebarItem and SidebarEnd, which are defined below.
 
-Note the syntax of the SidebarItem, which includes prameters icon of type *any*, item of type *string* and content of type *string*, is one of the main differences to Javascript. In addition, in contrast to Javascript, the HTML elements are wrapped inside a function, made possible by React.
+Note the Typescript syntax of the SidebarItem, which includes prameters "icon" of type *any*, "item" of type *string* and "content" of type *string*, is one of the main differences to Javascript. In addition, in contrast to Javascript, the HTML elements are wrapped inside a function, made possible by React.
 
 #### **Modals**
 
-Modals are pop-out boxes that contain various content, such as an input field. The front- and back-end connection for the input is the same as a html/javascript project. React does not alter the process of sending the data to the back-end to be processed and stored. 
+Modals are pop-out boxes that contain various content, such as an input field. The front- and back-end connection for the input is the same as an HTML/Javascript project. 
+
+**Note**: React does not alter the process of sending data to the back-end to be processed and stored. 
 
 
 <img src="images/create_account.png" alt= "Create Account Modal" width="50%" height="50%">
@@ -146,7 +148,7 @@ The example above demonstrates the creation of a new account. As the first image
 
 The function CreateAccount contains the functional component handelSubmit, which awaits the inputs for each field, then stores the data in as a string and sends it to the endpointRout, more specifically the new_acc function, which is located on the back-end of the webpage. This process is the same as a regular HTML/Javascript website. The main difference is that each input, before being sent to the backend is required to have a type.
 
-[Modals](https://mui.com/material-ui/react-modal/) themselves are simple to create, as they simply are a button that makes an input field appear and disappear when clicking a button. This occurs through the use of **onClick**, as shown in the second and third images.
+[Modals](https://mui.com/material-ui/react-modal/) themselves are simple to create, as they are simply a button that makes an input field appear and disappear when the button is clicked. This occurs through the use of **onClick**, as shown in the second and third images.
 
 The fourth image demonstrates how to create the dropdown menu used in the Account Types input. Once the user chooses one of the inputs from the list, the onChange function changes the output to the selcted input, thus setting the setAccountType variable to be the selected input, by using the useState method imported from the React library.
 
@@ -154,9 +156,9 @@ The fourth image demonstrates how to create the dropdown menu used in the Accoun
 
 ## Recommendation on using Typescript
 
-Typescript is a very useful tool which I would recommend for large, group projects, where an overview of code is vital and bugs must be fixed immediately. 
+Typescript is a very useful tool, which I would recommend for large, group projects, where an overview of code is vital and bugs must be fixed immediately. It works best with projects that will continuously be developed and altered.
 
-However, I would not recommend using Typescript for small, group projects such as for the [Mock Banking Website](https://github.com/LMC-Enjoyers/Mock-Banking-Website), as the benefits Typescript provides for small project in comparison to the time spent implementing it is not worth it, especially when considering that the project will no longer be worked on.
+However, I would not advise using Typescript for small, group projects such as for the [Mock Banking Website](https://github.com/LMC-Enjoyers/Mock-Banking-Website), as more moderat projects contain less bugs and require less code to be written. For this reason, the extra time required to code in Typescript does not justify its use in this type of project.
 
-Typescript works best with projects that will continuously be developed and altered.
+
 
