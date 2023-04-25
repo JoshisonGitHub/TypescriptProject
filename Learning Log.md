@@ -19,21 +19,15 @@ In week 2 our group agreed our project. We decided to use Typescript and brainst
 We therefore, chose as our project: **A mock banking website with an SQL database linked to the back-end**.
 
 We then made a rough timeline of weekly tasks:
-* Week 3 
-  * Learn typscript
-* Week 4
-  * Make a front-end template and back-end template
-  * Split front-end code into sections for each person to complete
-  * Split back-end code into sections for each person to complete
-* Week 5
-  * Finish front-end and link it to back-end
-* Week 6
-  * Learn SQL for database
-* Week 7
-  * Create database back-end and link it to front-end
-* Week 8
-  * Bug fixes
-  * Polish front-end
+
+| Week     | Task |
+| ----------- | ----------- |
+| 3      | Learn typscript       |
+| 4   |  Make front-end template and back-end template<br>Split front-end code into sections for each person to complete<br>Split back-end code into sections for each person to complete |
+| 5   |  Finish front-end and link it to back-end |
+| 6   |  Learn SQL for database |
+| 7   |   Create database back-end and link to front-end |
+| 8   |  Bug fixes<br>Polish front-end |
 
 ### Goals
 The next step to achieving Goal 1, learn Typescript, is to use the next week to research Typescript.
@@ -45,7 +39,7 @@ The next step to achieving Goal 1, learn Typescript, is to use the next week to 
 
 We began week 3 by structuring our tasklist more logically (eg to work on the back-end *after* learning SQL). See changes [here](https://docs.google.com/document/d/13toE3SYV0K4IG2FPP6fhk4kCVGq5jh-FQ2uWeFDy4QU/edit). 
 
-However, the main focus was learning Typescript which I enjoyed, as it resolves many issues I have with Javascript including:
+However, the main focus was learning Typescript which I enjoyed, as it resolves issues I have with Javascript including:
 
 1. **Readability**: I find it difficult to read other peoples code in Javascript. Typescript fixes this by adding types to each variable which improves legibility, as knowing the type of each variable makes it easier to understand the context of the input and ouput types and how the function will be used.
 2. **Bug Fixes**: As Typescript forces all variables to have a type, errors caused by allocating a variable a wrong type will be spotted in the interface by Typescript, rather than being spotted late in the developer console when using Javascript.
